@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* Tiêu đề  */
+.header {
+  background-color: #b84800;
+  color: #fad232;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+.header:hover {
+  background-color: #d4580a;
+}
+/* Giới thiệu */
+.about {
+  text-align: center;
+  background-color: #b84800;
+}
+.about h2 {
+  color: #fad232;
+  font-size: 1.8rem;
+}
+.about p {
+  color: white;
+}
+.about:hover {
+  background-color: #d4580a;
+}
+/* Liệt kê sách */
+.book-list {
+  background-color: #b84800;
+}
+.book-list img {
+  width: 186px;
+  height: 272px;
+}
+.book-list h2 {
+  text-align: center;
+  color: #fad232;
+}
+.book-list ul {
+  text-align: center;
+  list-style: none;
+}
+.book-list ul li {
+  font-weight: 500;
+}
+.book-list:hover {
+  background-color: #d4580a;
+}
+/* Sự kiện */
+.event {
+  background-color: #b84800;
+}
+.event h2 {
+  color: #fad232;
+  text-align: center;
+}
+.event p {
+  color: white;
+  text-align: center;
+}
+.event:hover {
+  background-color: #d4580a;
+}
+/* Nút */
+button {
+  color: white;
+  background-color: #d5be63;
+  border: none;
+  width: 120px;
+  height: 50px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #fad232;
+}
